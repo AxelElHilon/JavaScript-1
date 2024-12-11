@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px red solid;
+}
+
+body{
+    background-color: black;
+}
+
+.apre{
+    color: white;
+    text-shadow: 0 0 5px white,
+                0 0 10px white,
+                0 0 20px white,
+                0 0 30px white,
+                0 0 40px white,
+                0 0 50px white,
+                0 0 60px white;
+    
+  
+   padding: 5%;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;              
+}
+h1{
+    position: relative;
+    animation: moveRight 4s ease forwards;
+    
+}
+@keyframes moveRight {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0%;
+    }
+    
+}
+
+
+
+
+
+.teo{
+    color: green;
+    text-shadow: 0 0 5px green,
+                 0 0 10px green,
+                 0 0 20px green,
+                 0 0 30px green,
+                 0 0 40px green,
+                 0 0 50px green,
+                 0 0 60px green;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+
