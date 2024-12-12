@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px red solid;
+   /* border: 1px red solid;*/
 }
 
 body{
@@ -60,5 +60,16 @@ h1{
     align-items: center;
     height: 300px;
 
+}
+
+h2{
+    font-size: 2em;
+    animation: titilar 1s infinite;
+}
+
+@keyframes titilar {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100%{opacity: 1;}
 }
 
